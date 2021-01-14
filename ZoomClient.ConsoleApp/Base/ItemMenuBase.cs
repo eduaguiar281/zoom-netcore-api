@@ -41,5 +41,13 @@ namespace ZoomClient.ConsoleApp
             Cabecalho();
         }
 
+        protected bool MensagemConfirmacao(string mensagem, string stringValidas)
+        {
+            Console.WriteLine(mensagem);
+            string leitura = Console.ReadLine();
+
+            return stringValidas.Contains(leitura);
+        }
+
     }
 }

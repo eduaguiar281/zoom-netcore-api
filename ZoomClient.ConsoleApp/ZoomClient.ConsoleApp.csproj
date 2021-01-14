@@ -6,10 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Meeting\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ZoomClient\ZoomClient.csproj" />
   </ItemGroup>
 
